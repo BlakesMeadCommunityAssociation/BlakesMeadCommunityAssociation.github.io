@@ -1,0 +1,7 @@
+.bundle/vendor
+.env
+_site
+.sass-cache
+.jekyll-metadata
+
+_bin/node_modules

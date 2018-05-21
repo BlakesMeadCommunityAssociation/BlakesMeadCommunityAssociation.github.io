@@ -1,0 +1,72 @@
+---
+layout: default
+language: en
+---
+
+# About The Blake's Mead Community Association
+
+Formed in the spring of 2017 by a group of residents from across The Blake's Mead Estate, The BMCA exists to make our estate an even better place to live. The Blake's Mead Community Association exists for all residents of The Blake’s Mead Estate, Felpham. Together, our aims are to run a busy calendar of family events; to ensure our estate continues to keep its aesthetic appeal as it grows; and to act as one resident’s voice to all relevant agencies and authorities.
+
+
+## BMCA Mission Statement
+
+a) To create a better environment for all members by cultivating rich and diverse events and activities which appeal to people from all backgrounds.
+b) To encourage respect, responsibility and appreciation for the environment we live in.
+c) To lobby external bodies and organisations for the benefit of members including developers, housing associations, councils and management companies.
+d) To leverage the membership to negotiate discounted common services.
+
+## BMCA Aims
+
+The aims of the association are to:
+
+a) represent the interests of, and promote membership to, all residents.
+b) encourage residents to become actively involved in the BMCA.
+c) create a community spirit, encouraging members to work together to provide mutual support and encouragement.
+d) work towards improving and maintaining a healthy and safe environment for all residents.
+e) promote social activities for the enjoyment and benefit of all ages.
+f) represent the views of the majority and work towards improving the quality of life for the community.
+g) ensure that members are consulted and regularly informed.
+h) be non-party political and non-profit making.
+
+If you would like a full copy of The BMCA Constitution email info@blakesmeadcommunity.org.uk
+
+# BMCA Committee
+
+The BMCA Committee is made from local residents who volunteer their time. As membership grows there will be new nominations for the BMCA Committee.
+
+
+
+## Chris Gatehouse
+### Chair
+We have been residents for over a year now and it quickly became apparent that there was a need for an association to give the residents a voice and to hold the various organisations that own / manage this development to account. So I thought if not me, who? When the opportunity came to help form an association I jumped at the chance and am glad I did. I am looking forward to meeting new friends and building a community to be proud of.
+
+
+
+## Dan Ridout
+### Vice chair
+Copy to follow.
+
+
+
+## Mo Moore
+### Secretary
+I moved to the area with my family over 30 years ago, and have always felt that being part of a close-knit community is very important.  Through years working at the local hospital, I have strong connections in the area, and value my active role in local life. I will bring my experience, contacts and love for the community to the association.
+I am committed to developing the Blake's Mead community, and hope to help existing and new residents feel proud of where we live.
+
+
+
+## Emma Beckwith
+### Treasurer
+My names Emma. I moved onto the development in 2015 from Berkshire, best move I ever made and absolutely love where I live. Love being part of this community and made many great friends and am looking forward to making Blakesmead an even better place to be!
+
+
+
+## Raymond Hagger
+### Action Priority Lead
+Copy to follow.
+
+
+
+## Stefan Hoffman
+### Communications Lead
+Copy to follow.
