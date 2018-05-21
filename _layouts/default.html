@@ -1,66 +1,74 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ site.lang | default: "en-GB" }}">
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="/favicon.ico">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    {% seo %}
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  {% seo %}
 
-    <script>
-    var require = {
-      baseUrl: '{{ "assets/js/vendor" | relative_url }}',
-      paths: {
-        // jquery: 'jquery.min',
-        // underscore: 'underscore-min',
-        // touchSwipe: 'jquery.touchSwipe.min',
-        // app: '../app'
+  <script>
+  var require = {
+    baseUrl: '{{ "assets/js/vendor" | relative_url }}',
+    paths: {
+      jquery: 'jquery.min',
+      underscore: 'underscore-min',
+      touchSwipe: 'jquery.touchSwipe.min',
+      app: '../app'
+    },
+    shim: {
+      'bootstrap/util': {
+        deps: [ 'jquery' ]
       },
-      shim: {
-        // 'bootstrap/util': {
-        //   deps: [ 'jquery' ]
-        // },
-        // 'bootstrap/carousel': {
-        //   deps: [ 'touchSwipe', 'bootstrap/util' ]
-        // }
-      },
-      deps: []
-    };
-    </script>
-  </head>
+      'bootstrap/carousel': {
+        deps: [ 'touchSwipe', 'bootstrap/util' ]
+      }
+    },
+    deps: []
+  };
+  </script>
+</head>
 
-  <body>
-    <div id="container">
-      <div class="inner">
-
-        <header>
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        </header>
-        <hr>
-        <section id="main_content">
-          {{ content }}
-        </section>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/">{{ site.title | default: site.github.repository_name }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="/events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="/join.html">Join</a></li>
+          <li class="nav-item"><a class="nav-link" href="/membership.html">Membership</a></li>
+          <li class="nav-item"><a class="nav-link" href="/news.html">News</a></li>
+        </ul>
       </div>
-    </div>
+    </nav>
+  </header>
 
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
+{{ content }}
 
-    <script src="{{ '/assets/js/require.js' | relative_url }}" type="text/javascript"></script>
-  </body>
+  {% if site.google_analytics %}
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+  {% endif %}
+
+  <script src="{{ '/assets/js/require.js' | relative_url }}" type="text/javascript"></script>
+</body>
 </html>

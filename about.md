@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 language: en
 ---
 
@@ -10,25 +10,25 @@ Formed in the spring of 2017 by a group of residents from across The Blake's Mea
 
 ## BMCA Mission Statement
 
-a) To create a better environment for all members by cultivating rich and diverse events and activities which appeal to people from all backgrounds.
-b) To encourage respect, responsibility and appreciation for the environment we live in.
-c) To lobby external bodies and organisations for the benefit of members including developers, housing associations, councils and management companies.
-d) To leverage the membership to negotiate discounted common services.
+1. To create a better environment for all members by cultivating rich and diverse events and activities which appeal to people from all backgrounds.
+2. To encourage respect, responsibility and appreciation for the environment we live in.
+3. To lobby external bodies and organisations for the benefit of members including developers, housing associations, councils and management companies.
+4. To leverage the membership to negotiate discounted common services.
 
 ## BMCA Aims
 
 The aims of the association are to:
 
-a) represent the interests of, and promote membership to, all residents.
-b) encourage residents to become actively involved in the BMCA.
-c) create a community spirit, encouraging members to work together to provide mutual support and encouragement.
-d) work towards improving and maintaining a healthy and safe environment for all residents.
-e) promote social activities for the enjoyment and benefit of all ages.
-f) represent the views of the majority and work towards improving the quality of life for the community.
-g) ensure that members are consulted and regularly informed.
-h) be non-party political and non-profit making.
+1. represent the interests of, and promote membership to, all residents.
+2. encourage residents to become actively involved in the BMCA.
+3. create a community spirit, encouraging members to work together to provide mutual support and encouragement.
+4. work towards improving and maintaining a healthy and safe environment for all residents.
+5. promote social activities for the enjoyment and benefit of all ages.
+6. represent the views of the majority and work towards improving the quality of life for the community.
+7. ensure that members are consulted and regularly informed.
+8. be non-party political and non-profit making.
 
-If you would like a full copy of The BMCA Constitution email info@blakesmeadcommunity.org.uk
+If you would like a full copy of The BMCA Constitution email [info@blakesmeadcommunity.org.uk](mailto:info@blakesmeadcommunity.org.uk).
 
 # BMCA Committee
 

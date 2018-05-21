@@ -7,8 +7,17 @@ $body-color: #333;
 
 @import "bootstrap/bootstrap";
 
-header {
-  h2 {
-    // color: #89b9c5;
+body {
+  padding-top: 3.5rem;
+}
+
+#bmcaCarousel {
+  .carousel-inner {
+    .carousel-item {
+      max-height: 500px;
+      .carousel-caption {
+        text-shadow: 0px 0px 5px rgba(0,0,0,255);
+      }
+    }
   }
 }

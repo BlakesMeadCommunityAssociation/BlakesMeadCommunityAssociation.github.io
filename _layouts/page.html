@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<!-- Main Content -->
+<div class="container" {% if page.page_id != null %}id="{{ page.page_id }}"{% endif %}>
+  <div class="row">
+    <div class="col-12">
+      {{ content }}
+    </div>
+  </div>
+</div>
