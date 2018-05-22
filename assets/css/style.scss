@@ -1,17 +1,44 @@
 ---
 ---
 
-$font-family-sans-serif: sans-serif;
+$font-family-sans-serif: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
 $body-bg: #fff;
 $body-color: #333;
 
 @import "bootstrap/bootstrap";
 
 body {
-  padding-top: 3.5rem;
+  padding-top: 100px;
+  transition: padding 0.35s ease;
+  &.small-header {
+    padding-top: 60px;
+
+    nav.navbar {
+      opacity: 0.85;
+      .navbar-brand {
+        img {
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+nav.navbar {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25);
+  background-color: $light;
+  opacity: 1;
+  transition: opacity 0.35s ease;
+  .navbar-brand {
+    img {
+      height: 80px;
+      transition: height 0.35s ease;
+    }
+  }
 }
 
 #bmcaCarousel {
+  margin-top: -60px;
   .carousel-inner {
     .carousel-item {
       max-height: 500px;

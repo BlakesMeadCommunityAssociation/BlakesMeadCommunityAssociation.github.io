@@ -26,7 +26,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 sass:
-  style: compressed
+  style: expanded
 
 # CANNOT CHANGE THESE
 lsi: false

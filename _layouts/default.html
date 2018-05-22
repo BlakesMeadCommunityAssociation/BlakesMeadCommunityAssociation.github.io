@@ -8,6 +8,7 @@
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
   <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -37,23 +38,26 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="/">{{ site.title | default: site.github.repository_name }}</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="/events.html">Events</a></li>
-          <li class="nav-item"><a class="nav-link" href="/join.html">Join</a></li>
-          <li class="nav-item"><a class="nav-link" href="/membership.html">Membership</a></li>
-          <li class="nav-item"><a class="nav-link" href="/news.html">News</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="/assets/images/bmca-logo-banner-transparent-small.png" alt="{{ site.title | default: site.github.repository_name }}" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="/events.html">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="/join.html">Join</a></li>
+            <li class="nav-item"><a class="nav-link" href="/membership.html">Membership</a></li>
+            <li class="nav-item"><a class="nav-link" href="/news.html">News</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
+    <script> require.deps.push('app/header') </script>
   </header>
 
 {{ content }}
