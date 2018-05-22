@@ -1,6 +1,7 @@
 ---
 layout: default
 language: en
+page_id: homepage
 ---
 
 {% include homepage_carousel.html %}

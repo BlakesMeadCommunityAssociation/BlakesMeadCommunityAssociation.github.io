@@ -36,7 +36,7 @@
   </script>
 </head>
 
-<body>
+<body class="layout-{{ page.layout }}" {% if page.page_id != null %} id="{{ page.page_id }}"{% endif %}>
   <header>
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container">

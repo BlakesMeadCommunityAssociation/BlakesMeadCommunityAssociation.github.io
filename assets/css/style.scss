@@ -8,11 +8,7 @@ $body-color: #333;
 @import "bootstrap/bootstrap";
 
 body {
-  padding-top: 100px;
-  transition: padding 0.35s ease;
   &.small-header {
-    padding-top: 60px;
-
     nav.navbar {
       opacity: 0.85;
       .navbar-brand {
@@ -21,6 +17,21 @@ body {
         }
       }
     }
+  }
+}
+
+body.layout-page {
+  padding-top: 130px;
+}
+
+body.layout-default {
+  padding-top: 106px;
+  transition: padding 0.35s ease;
+  &.small-header {
+    padding-top: 60px;
+  }
+  #bmcaCarousel {
+    margin-top: -60px;
   }
 }
 
@@ -38,7 +49,6 @@ nav.navbar {
 }
 
 #bmcaCarousel {
-  margin-top: -60px;
   .carousel-inner {
     .carousel-item {
       max-height: 500px;
